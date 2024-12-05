@@ -11,4 +11,4 @@ eureka:
     serviceUrl:
       defaultZone: 'http://${ead.serviceRegistry.username}:${ead.serviceRegistry.password}@localhost:8761/eureka'
   instance:
-    hostname: localhost23sr'
+    hostname: localhost
