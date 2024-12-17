@@ -25,6 +25,10 @@ spring:
   rabbitmq:
     addresses: amqps://hvyuqppf:Ay-qBRI53ggIuB0nBqG-44-pAurb9RY0@woodpecker.rmq.cloudamqp.com/hvyuqppf
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 0d480109abaff349a5bc4355462a16fb5933fbcd
 logging:
   level:
     com.ead: TRACE
