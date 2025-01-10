@@ -55,3 +55,7 @@ management:
         include:
           - refresh
           - health
+
+springdoc:
+  swagger-ui:
+    path: /ead-course/swagger-ui.html
