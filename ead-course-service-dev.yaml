@@ -1,13 +1,13 @@
 server:
   port: 8082
   servlet:
-    context-path: /ead-course
+    context-path: '/ead-course/'
 
 spring:
   application:
     name: ead-course-service
   datasource:
-    url: jdbc:postgresql://localhost:5432/ead-course-v2
+    url:  jdbc:postgresql://localhost:5432/ead-course-v2
     username: postgres
     password: 123
   jpa:
@@ -31,7 +31,6 @@ logging:
     root: INFO
     org.springframework.web: DEBUG
     org.hibernate: INFO
-    org.springdoc: DEBUG
 
 ead:
   api:
@@ -54,7 +53,3 @@ management:
         include:
           - refresh
           - health
-
-springdoc:
-  api-docs:
-    path: /v3/api-docs
