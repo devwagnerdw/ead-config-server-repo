@@ -7,7 +7,7 @@ spring:
   application:
     name: ead-course-service
   datasource:
-    url:  jdbc:postgresql://localhost:5432/ead-course-v2
+    url: jdbc:postgresql://localhost:5432/ead-course-v2
     username: postgres
     password: 123
   jpa:
@@ -53,3 +53,10 @@ management:
         include:
           - refresh
           - health
+
+springdoc:
+  api-docs:
+    path: /api-docs
+
+  swagger-ui:
+    path: /swagger-ui.html
